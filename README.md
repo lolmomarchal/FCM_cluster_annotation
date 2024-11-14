@@ -5,8 +5,28 @@ This script is meant for the detection and visualization of heterogenous and hom
 <img src="https://github.com/user-attachments/assets/a6d87bea-4f34-45a1-a147-11a0ddfbaa6f" width="200" /> 
   
 
-To run:
+# Installation:
+1. pip install git+https://github.com/saeyslab/FlowSOM_Python
+2. git clone https://github.com/lolmomarchal/FCM_cluster_annotation.git
+3. Use conda environment
 
+# Running
+
+--significance_value (default: 0.05): Sets the p-value threshold for statistical significance.
+--input_directory: Directory containing the FCM data files to be processed.
+--metadata_csv: Path to the CSV file with metadata associated with the FCM data.
+--percentile (default: 0.9): Sets the percentile threshold for filtering data points.
+--standard_dev_threshold (default: 3): Threshold for filtering based on standard deviations.
+--neighbors (default: 30): Number of neighbors to consider in UMAP analysis.
+--min_dist (default: 0.5): Minimum distance parameter for UMAP clustering.
+--leukemia_type (default: "CLL"): Specifies the leukemia type (e.g., CLL, ALL) for customized processing.
+--percent_sampling (default: 1): Percentage of cells to sample for analysis (e.g., 0.5 for 50%).
+--times_sampled (default: 1): Number of times to resample the data.
+--output_directory: Directory where processed data and results will be saved.
+--processes (default: os.cpu_count()): Number of CPU cores to use for parallel processing.
+
+
+python FCM_preprocessing.py --input_directory /data/fcm_input --metadata_csv /data/metadata.csv --output_directory /data/fcm_output --significance_value 0.01 --plot_UMAP --percentile 0.95 --neighbors 15 --min_dist 0.3 --leukemia_type ALL --processes 4
 
 FlowSOM was developed by:
 
