@@ -1,6 +1,6 @@
 ### FCM Cluster Annotation 🔬
 
-This script is for the detection and visualization of **heterogeneous** and **homogeneous** expression clusters in Flow Cytometry (FCM) data. It was originally developed to identify patient-specific and subtype-specific leukemic clusters, serving as a form of automated gating for FCM data. While primarily created for **CLL** and **B-ALL** leukemias, it can be adapted for other leukemia types upon request. Any questions should be directed to lorezo.olmomarchal@gmail.com
+This script is for the detection and visualization of **heterogeneous** and **homogeneous** expression clusters in Flow Cytometry (FCM) data. It was originally developed to identify patient-specific and subtype-specific leukemic clusters, serving as a form of automated gating for FCM data. While primarily created for **CLL** and **B-ALL** leukemias, it can be adapted for other leukemia types upon request. Any questions should be directed to lorenzo.olmomarchal@gmail.com
 
 ![FCM Cluster Annotation Image](https://github.com/user-attachments/assets/a6d87bea-4f34-45a1-a147-11a0ddfbaa6f)
 
